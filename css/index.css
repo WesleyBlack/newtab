@@ -11,6 +11,7 @@ body {
 }
 
 .top_left:hover ~ .center {
+	-webkit-filter: sepia(200%) saturate(1000%) brightness(80%) hue-rotate(-50deg);
 	filter: sepia(200%) saturate(1000%) brightness(80%) hue-rotate(-50deg);
 	transition: all 1s ease;
 }
@@ -24,6 +25,7 @@ body {
 }
 
 .top_right:hover ~ .center {
+	-webkit-filter: sepia(200%) saturate(1000%) brightness(60%) hue-rotate(-70deg);
 	filter: sepia(200%) saturate(1000%) brightness(60%) hue-rotate(-70deg);
 	transition: all 1s ease;
 }
@@ -37,6 +39,7 @@ body {
 }
 
 .bottom_left:hover ~ .center {
+	-webkit-filter: sepia(200%) saturate(1000%) brightness(80%) hue-rotate(180deg);
 	filter: sepia(200%) saturate(1000%) brightness(80%) hue-rotate(180deg);
 	transition: all 1s ease;
 }
@@ -50,6 +53,7 @@ body {
 }
 
 .bottom_right:hover ~ .center {
+	-webkit-filter: sepia(200%) saturate(800%) brightness(80%) hue-rotate(40deg);
 	filter: sepia(200%) saturate(800%) brightness(80%) hue-rotate(40deg);
 	transition: all 1s ease;
 }
@@ -67,15 +71,12 @@ body {
 	background-size: 55%;
 	background-repeat: no-repeat;
 	background-position: center;
+	-webkit-filter: sepia(0%) saturate(0%) brightness(90%) hue-rotate(0deg);
 	filter: sepia(0%) saturate(0%) brightness(90%) hue-rotate(0deg);
 }
 
 .center:hover {
+	-webkit-filter: sepia(0%) saturate(0%) brightness(60%) hue-rotate(0deg);
 	filter: sepia(0%) saturate(0%) brightness(60%) hue-rotate(0deg);
 	transition: all 1s ease;
 }
-
-
-
-
-
